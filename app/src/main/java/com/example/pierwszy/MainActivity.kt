@@ -13,7 +13,9 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         Log.d(this.javaClass.simpleName, "Wlasnie ruszyla")
 
-        var number = 300
+        var number = 500
+
+
 
         val button: Button = findViewById(R.id.button)
         val textField: TextView = findViewById(R.id.text)
