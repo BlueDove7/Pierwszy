@@ -14,7 +14,7 @@ class MainActivity : AppCompatActivity() {
         Log.d(this.javaClass.simpleName, "Wlasnie ruszyla")
 
         var number = 500
-        var bedziebrzydo = 2000
+        var bedziebrzydo = 7
         val button: Button = findViewById(R.id.button)
         val textField: TextView = findViewById(R.id.text)
 
