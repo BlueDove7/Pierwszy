@@ -14,21 +14,19 @@ class MainActivity : AppCompatActivity() {
         Log.d(this.javaClass.simpleName, "Wlasnie ruszyla")
 
         var number = 500
-
-
-
+        var bedziebrzydo = 1000
         val button: Button = findViewById(R.id.button)
         val textField: TextView = findViewById(R.id.text)
 
         val karolina = Person(dateOfBirth = Date().time.minus(5))
-        val karolina2= Person(dateOfBirth = Date().time.minus(5))
+        val karolina2 = Person(dateOfBirth = Date().time.minus(5))
 
         textField.text = karolina.dateOfBirth.toString()
 
         button.setOnClickListener {
             Log.d(this.javaClass.simpleName, "dodano 1, nowa wartość: $number")
             textField.text = number.toString()
-                number++
+            number++
         }
     }
 
