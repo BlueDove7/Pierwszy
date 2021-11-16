@@ -15,6 +15,7 @@ class MainActivity : AppCompatActivity() {
 
         var number = 500
 
+
  
         var bedziebrzydo = 3
 
